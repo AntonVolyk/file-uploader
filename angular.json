@@ -28,9 +28,12 @@
               "src/assets"
             ],
             "styles": [
+              "./node_modules/@angular/material/prebuilt-themes/deeppurple-amber.css",
               "src/styles.scss"
             ],
-            "scripts": []
+            "scripts": [
+              "node_modules/xlsx/dist/xlsx.core.min.js"
+            ]
           },
           "configurations": {
             "production": {
@@ -92,6 +95,7 @@
               "src/assets"
             ],
             "styles": [
+              "./node_modules/@angular/material/prebuilt-themes/deeppurple-amber.css",
               "src/styles.scss"
             ],
             "scripts": []
@@ -123,6 +127,10 @@
           }
         }
       }
-    }},
-  "defaultProject": "file-upload-firebase"
+    }
+  },
+  "defaultProject": "file-upload-firebase",
+  "cli": {
+    "analytics": "6daade24-7ec3-4e88-9ce7-e6d7b2a055b3"
+  }
 }
